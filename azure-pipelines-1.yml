@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: ArchiveFiles@2
+- task: ArchiveFiles@0
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
